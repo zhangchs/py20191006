@@ -2,3 +2,4 @@
 安装库：pip install jieba
 导入：  import jieba
 分词（返回迭代器）：list(jieba.cut)
+s
