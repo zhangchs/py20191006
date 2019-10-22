@@ -7,4 +7,6 @@
 
 预处理api:sklearn.preprocessing
 
-归一化公式：x'=(x-min)/(max-min) x''=x'(mx-mi)+mi
+归一化公式：x'=(x-min)/(max-min)     x''=x'(mx-mi)+mi
+标准化公式： x'=(x-mean)/标准差     var(方差)=[(x1-mean)^2+(x1-mean)^2+.......]/n(每个特征的样本数)   标准差=var^(1/2)
+
