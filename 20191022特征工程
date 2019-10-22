@@ -1,7 +1,13 @@
 特征工程:
     1、特征抽取，针对字典、文本、分类等
-    2、特征预处理，针对数值类型
-数值型数据：标志缩放：
+    2、特征预处理，针对数值类型。
+    3.数据的降维
+
+特征抽取api:sklearn.feature_extraction
+tf idf   term frequency(词频)   inverse document frequency(逆文档频率)
+idf=log(总文档数量/该词出现文档数量)
+
+标志缩放：
               1、归一化；
               2、标准化；
               3、缺失值
