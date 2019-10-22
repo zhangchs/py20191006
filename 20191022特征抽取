@@ -1,0 +1,10 @@
+数值型数据：标志缩放：
+              1、归一化；
+              2、标准化；
+              3、缺失值
+类别型数据：one-hot编码
+时间类型：时间的切分
+
+预处理api:sklearn.preprocessing
+
+归一化公式：x'=(x-min)/(max-min) x''=x'(mx-mi)+mi
