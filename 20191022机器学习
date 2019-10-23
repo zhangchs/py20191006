@@ -1,9 +1,15 @@
 算法：
   有监督学习：既有特征值又有目标值
     分类：目标值离散
-      k-近邻算法 贝叶斯分类 决策树与随机深林 逻辑回归 神经网络
+      k-近邻算法 sklearn.neighbors
+        [(a1-b1)^2+(a2-b2)^2+(a3-b3)^2]^(1/2)
+      贝叶斯分类 sklearn.naive_bayes
+      决策树与随机深林 sklearn.tree
+      逻辑回归 sklearn.linear_model.LogisticRegression
+      神经网络
     回归：目标值连续
-      线性回归 岭回归
+      线性回归 sklearn.linear_model.LinearRegression
+      岭回归 sklearn.linear_model.Ridge
     标注：
       隐马尔可夫模型
   无监督学习：只有特征值
