@@ -20,7 +20,7 @@ idf=log(总文档数量/该词出现文档数量)
 标准化公式： x'=(x-mean)/标准差     var(方差)=[(x1-mean)^2+(x1-mean)^2+.......]/n(每个特征的样本数)   标准差=var^(1/2)
 
 特征简化（降维）：
-  1、特征选择：使用方差
+  1、特征选择：使用方差，方差小的筛掉
   2、pca(主成分分析Principal Component Analysis)：
       特征关联度越高，降维越容易
       api:sklearn.decomposition
