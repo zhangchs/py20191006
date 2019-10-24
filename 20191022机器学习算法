@@ -22,6 +22,7 @@
           为解决频率为0的问题引入拉普拉斯平滑系数
             P(F1|C)=(Ni+α)/(N+αm)   α一般设为1
       决策树与随机深林 sklearn.tree
+        信息墒：H(X)=∑x∈XP(x)logP(x) 概率相同时公式成立
       逻辑回归 sklearn.linear_model.LogisticRegression
       神经网络
     回归：目标值连续
