@@ -22,11 +22,13 @@
           为解决频率为0的问题引入拉普拉斯平滑系数
             P(F1|C)=(Ni+α)/(N+αm)   α一般设为1
       决策树与随机深林 sklearn.tree
-        信息墒：H(X)=∑x∈XP(x)logP(x) 概率相同时公式成立
+        香农信息墒：H(X)=∑x∈XP(x)logP(x) 概率相同时公式成立
+        信息增益：g(D,A)=H(D)-H(D|A)
       逻辑回归 sklearn.linear_model.LogisticRegression
       神经网络
     回归：目标值连续
       线性回归 sklearn.linear_model.LinearRegression
+        f(x)=w1x1+w2x2+...+wdxd+b
       岭回归 sklearn.linear_model.Ridge
     标注：
       隐马尔可夫模型
