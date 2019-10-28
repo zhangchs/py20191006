@@ -29,6 +29,9 @@
     回归：目标值连续
       线性回归 sklearn.linear_model.LinearRegression
         f(x)=w1x1+w2x2+...+wdxd+b
+        损失函数：∑[h(x)-y]^2(最小二乘法)
+        求权重w:
+          最小二乘法之正规方差：w={[(X^T)X]^-1}(X^T)y
       岭回归 sklearn.linear_model.Ridge
     标注：
       隐马尔可夫模型
