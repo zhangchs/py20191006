@@ -27,11 +27,13 @@
       逻辑回归 sklearn.linear_model.LogisticRegression
       神经网络
     回归：目标值连续
-      线性回归 sklearn.linear_model.LinearRegression
+      线性回归 sklearn.linear_model.LinearRegression（SGDRegression）
         f(x)=w1x1+w2x2+...+wdxd+b
         损失函数：∑[h(x)-y]^2(最小二乘法)
         求权重w:
-          最小二乘法之正规方差：w={[(X^T)X]^-1}(X^T)y
+          正规方程：w={[(X^T)X]^-1}(X^T)y
+          梯度下降：均方误差[∑(yi-y)^2]/m
+        性能评估：
       岭回归 sklearn.linear_model.Ridge
     标注：
       隐马尔可夫模型
